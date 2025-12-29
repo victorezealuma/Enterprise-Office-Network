@@ -51,7 +51,7 @@ PNG | Verification screenshots
 - Internet connectivity via NAT
 - NAT translation table verification
 
-## Skills Demonstrated for Employers
+## Skills Demonstrated
 
 - Network design from scratch
 - Cisco routing & NAT configuration
