@@ -35,25 +35,25 @@ This project demonstrates hands-on experience with:
 4.Traffic is forwarded to the ISP router and simulated internet &ensp;
 5.Return traffic is translated back to the correct internal host.
 
-Files Included
+## Files Included
 File | Description 
 --- | --- 
-office-network-nat.pkt | Full Packet Tracer project
+Office-network-nat.pkt | Full Packet Tracer project
 Router-a-config.txt | Edge router configuration 
-isp-router-config.txt | ISP router config 
+Isp-router-config.txt | ISP router config 
 common-issues-and-fixes.md | Troubleshooting guide
 PNG | Verification screenshots
 
 ## Testing & Verification
 
-Successful DHCP address assignment
-Inter-office communication
-Internet connectivity via NAT
-NAT translation table verification
+- Successful DHCP address assignment
+- Inter-office communication
+- Internet connectivity via NAT
+- NAT translation table verification
 
 ## Skills Demonstrated for Employers
 
-✔ Network design from scratch
-✔ Cisco routing & NAT configuration
-✔ Real-world enterprise troubleshooting
-✔ Documentation & technical communication
+- Network design from scratch
+- Cisco routing & NAT configuration
+- Real-world enterprise troubleshooting
+- Documentation & technical communication
