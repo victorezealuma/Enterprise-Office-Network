@@ -16,13 +16,21 @@ All private IP traffic is translated to a public IP before accessing the interne
 
 ## Technologies & Networking Skills Used
 
-*This project demonstrates hands-on experience with:
-*IPv4 addressing & subnetting
-*LAN & WAN design
-*DHCP (Server-based & Router-based)
-*DNS configuration
-*Default gateway & static routing
-*NAT (Inside / Outside, PAT)
-*Cisco IOS CLI configuration
-*Network testing (ping, NAT table verification)
-*Troubleshooting connectivity issues
+-This project demonstrates hands-on experience with:
+-IPv4 addressing & subnetting
+-LAN & WAN design
+-DHCP (Server-based & Router-based)
+-DNS configuration
+-Default gateway & static routing
+-NAT (Inside / Outside, PAT)
+-Cisco IOS CLI configuration
+-Network testing (ping, NAT table verification)
+-Troubleshooting connectivity issues
+
+## How the Network Works.
+
+1.End devices in both offices obtain IP addresses via DHCP.
+2.Traffic from private networks is forwarded to the edge router.
+3.The edge router translates private IPs to a public IP using NAT.
+4.Traffic is forwarded to the ISP router and simulated internet.
+5.Return traffic is translated back to the correct internal host.
