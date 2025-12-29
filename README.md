@@ -29,8 +29,8 @@ This project demonstrates hands-on experience with:
 
 ## How the Network Works.
 
-## 1.End devices in both offices obtain IP addresses via DHCP
-## 2.Traffic from private networks is forwarded to the edge router
-## 3.The edge router translates private IPs to a public IP using NAT
-## 4.Traffic is forwarded to the ISP router and simulated internet
-## 5.Return traffic is translated back to the correct internal host.
+1.End devices in both offices obtain IP addresses via DHCP (&ensp;)
+2.Traffic from private networks is forwarded to the edge router(&ensp;)
+3.The edge router translates private IPs to a public IP using NAT(&ensp;)
+4.Traffic is forwarded to the ISP router and simulated internet(&ensp;)
+5.Return traffic is translated back to the correct internal host.
