@@ -24,4 +24,8 @@ access-list 1 permit 192.168.20.0 0.0.0.255
 
 ip nat inside source list 1 interface s0/0/0 overload
 
+# Default Route to Internet
+ip route 0.0.0.0 0.0.0.0 203.0.113.1
+
+
 exit
