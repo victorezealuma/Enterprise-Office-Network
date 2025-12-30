@@ -1,1 +1,22 @@
+DHCP Pool for Office A
 
+Pool Name: OfficeA
+Default Gateway: 192.168.10.1
+DNS Server: 192.168.10.2
+Start IP: 192.168.10.100
+Subnet Mask: 255.255.255.0
+Max Users: 20
+
+
+
+DHCP for Office B (Router-Based DHCP)
+
+ip dhcp pool OfficeB
+ network 192.168.20.0 255.255.255.0
+ default-router 192.168.20.1
+ dns-server 192.168.10.2
+ exit
+
+Exclude gateway:
+ip dhcp excluded-address 192.168.20.1
+exit
