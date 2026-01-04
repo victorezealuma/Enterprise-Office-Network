@@ -1,36 +1,36 @@
-**Issues Encountered and how they were Fixed as well as lesssons Learnt**
+Issues Encountered and how they were Fixed as well as lesssons Learnt.
 
-**1. DHCP Assignment Issue in Office A**
+1. DHCP Assignment Issue in Office A
 
-**Problem:**
+Problem:
 Client devices in Network A received an IP address but had no default gateway, resulting in traffic being unroutable outside the local subnet.
-**Cause:**
+Cause:
 The DHCP pool on Server-A did not have the correct default gateway configured.
-**Fix:**
+Fix:
 Updated the DHCP pool to include 192.168.10.1 as the default gateway and renewed the DHCP lease on affected clients.
-**Lesson Learned:**
+Lesson Learned:
 Learnt that a missing default gateway in DHCP configuration prevents inter-network and internet communication.
 
-**2. Inter-LAN Communication Works but No Internet Access**
+2. Inter-LAN Communication Works but No Internet Access
 
-**Problem:**
+Problem:
 Devices in both Office A and Office B could communicate with each other, but could not reach external networks.
-**Cause:**
+Cause:
 Incorrect connector type and cable were used between the edge router and ISP router, causing WAN traffic to fail.
-**Fix:**
+Fix:
 Replaced the incorrect cable with the appropriate serial/straight-through connection and verified interface status.
-**Lesson Learnt:**
+Lesson Learnt:
 Physical layer issues can mimic routing or NAT problems and should always be checked early during troubleshooting.
 
-**3. Incorrect Default Route on Edge Router**
+3. Incorrect Default Route on Edge Router
 
-**Problem:**
+Problem:
 Traffic from internal networks did not reach the ISP router.
-**Cause:**
+Cause:
 Default route was either missing or pointed to an incorrect next-hop IP.
-**Fix:**
+Fix:
 Configured a correct default route pointing to the ISP router (203.0.113.1).
-**Lesson Learned:**
+Lesson Learned:
 Default routing is essential for internet-bound traffic.
 
 
